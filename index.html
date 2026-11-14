@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculadora de IMC</h1>
-    <label for="Altura">Altura:</label>
-    <input type="number" id="Altura" placeholder="Digite a altura">
-    <br>
-    <br>
-    <label for="peso">Peso:</label>
-    <input type="number" id="peso" placeholder="Digite o peso">
-    <br>
-    <br>
-    <button onclick="CalcularIMC()">Calcular IMC</button>
+    <main class="calculadora">
+        <h1>Calculadora de IMC</h1>
+        <label for="Altura">Altura:</label>
+        <input type="number" id="Altura" placeholder="Digite a altura">
+        <label for="peso">Peso:</label>
+        <input type="number" id="peso" placeholder="Digite o peso">
+        <button onclick="CalcularIMC()">Calcular IMC</button>
 
-    <h2 id="resultado">O IMC é: </h2>
+        <h2 id="resultado">O IMC é: </h2>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
